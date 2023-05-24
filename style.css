@@ -1,0 +1,48 @@
+.box {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+.mouse {
+    height: 500px;
+    width: 300px;
+    background-color: blue;
+    border: 2px solid #fff;
+    border-radius: 10000px;
+    position: relative;
+    left: 800px;
+    top: 300px;
+    
+}
+
+.point {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    animation-name: point;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  
+}
+
+@keyframes point {
+    from {
+        top: 0;
+        
+    }
+    to {
+        top: 370px;
+        background-color: blue;
+    }
+}
+
+
+.bigbox {
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+}
